@@ -1,0 +1,31 @@
+#main{
+    border: 1px solid black;
+    display: flex;
+}
+#display{
+    border: 1px solid black;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#id{
+    margin: auto;
+}
+#details{
+    width: 30%;
+   
+    border: 1px solid black;
+}
+
+.box img{
+    width: 100%;
+}
+#min,#max,#apply{
+    display: block;
+    width: 25%;
+}
+#sort{
+    display: flex;
+    justify-content: space-evenly;
+}
