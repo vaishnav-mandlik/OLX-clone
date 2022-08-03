@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bc1ae520ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="search.css">
+    <script src="search.js"></script>
+   <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <div id="nav">
+        <input id="type" type="text">
+        <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div id="main">
+        <div id="details">
+            <h3>Categories</h3>
+            <h4>-  All Categories</h4><hr>
+            <h3>Locations</h3><hr>
+            <div id="filters">
+            <p>Filters</p>
+            <h3>Budget</h3>
+            <p>Choose a range below</p>
+            <div id="sort">
+                <input type="number" placeholder="min" id="min"> 
+                <p>to</p>
+                <input type="number" placeholder="max" id="max">
+                <button id="apply">apply</button>
+            </div>
+            </div>
+        </div>
+        <div id="display"></div>
+    </div>
+</body>
+<script src="search.js"></script>
+</html>
