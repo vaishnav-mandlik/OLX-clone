@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="login_css.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <meta http-equiv="refresh" content="10">
+</head>
+
+<body>
+
+
+
+  <div class="login">
+
+    <form class="modal-content animate" action="/action_page.php" method="post" style="width:400px; height: 600px;">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+        <p class="avtar"><img src="	https://statics.olx.in/external/base/img/loginEntryPointPost.webp" style="width: 100px; height: 100px;" alt=""></p>
+      </div>
+
+      <div class="container">
+
+        <div class="slideshow-container">
+
+          <div class="mySlides">
+
+            <q>Help us become one of the safest places to buy and sell</q>
+          </div>
+
+          <div class="mySlides">
+            <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+          </div>
+
+          <div class="mySlides">
+            <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <button type="submit"><i class="fa fa-phone" aria-hidden="true"></i>
+          Continue with Phone</button>
+        <button type="submit"><i class="fa fa-google" aria-hidden="true"></i>
+
+          Continue with Google</button>
+
+        <p style="margin:16px 0;font-size: 14px;text-align: center;text-transform: uppercase;font-weight: 500;">OR</p>
+        <span style="padding: 0 0 4px;
+          margin: 4px 0 32px;
+          display: block;
+          text-align: center;
+          text-decoration: underline;
+          text-underline-position: under;
+          font-size: 14px;
+          font-weight: 700;
+          cursor: pointer;">Login with Email</span>
+    </form>
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+</body>
+
+</html>
