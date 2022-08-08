@@ -1,142 +1,234 @@
 var List=[
     { 
-     name : "HP ELITEBOOK 840 G5 2020 CORE I7-8THGEN 14FHD [8GB RAM/256GB SSD]",
-     img_url :"https://apollo-singapore.akamaized.net/v1/files/vi8ijs5y3czn1-IN/image;s=780x0;q=60",
-     price :37990,
+     name : " Dell Laptop for Resale",
+     img_url :"https://apollo-singapore.akamaized.net/v1/files/mo6nrkk8kppu1-IN/image;s=300x600;q=60",
+     price :"27,990",
      location:"Mumbai",
+     day:"25 july",
      id:"laptop"
     },
     { 
-     name : "HP ELITEBOOK 840 G5 2020 CORE I7-8THGEN 14FHD [8GB RAM/256GB SSD]",
-     img_url :"data:image/jpeg;base64,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",
-     price :37990,
-     location:"Mumbai",
+     name : "HP A1 condition Laptop",
+     img_url :"https://apollo-singapore.akamaized.net/v1/files/erw1nvuqscdi2-IN/image;s=300x600;q=60",
+     price :"10,990",
+     location:"Madhubani,Bihar",
+     day:"15 july",
      id:"laptop"
     },
     { 
-     name : "HP ELITEBOOK 840 G5 2020 CORE I7-8THGEN 14FHD [8GB RAM/256GB SSD]",
-     img_url :"https://apollo-singapore.akamaized.net/v1/files/vi8ijs5y3czn1-IN/image;s=780x0;q=60",
-     price :37990,
+     name : "Apple Imac 21.5inch",
+     img_url :"https://apollo-singapore.akamaized.net/v1/files/wd40ocgz75o43-IN/image;s=300x600;q=60",
+     price :"57,990",
      location:"Mumbai",
+     day:"Today",
      id:"laptop"
     },
     { 
-     name : "HP ELITEBOOK 840 G5 2020 CORE I7-8THGEN 14FHD [8GB RAM/256GB SSD]",
-     img_url :"https://apollo-singapore.akamaized.net/v1/files/vi8ijs5y3czn1-IN/image;s=780x0;q=60",
-     price :37990,
-     location:"Mumbai",
+     name : "HP pavilion",
+     img_url :"https://apollo-singapore.akamaized.net/v1/files/qo9vl3mmizcj2-IN/image;s=300x600;q=60",
+     price :"37,990",
+     location:"Agra",
+     day:"25 july",
      id:"laptop"
     },
     { 
-     name : "HP ELITEBOOK 840 G5 2020 CORE I7-8THGEN 14FHD [8GB RAM/256GB SSD]",
-     img_url :"https://apollo-singapore.akamaized.net/v1/files/vi8ijs5y3czn1-IN/image;s=780x0;q=60",
-     price :37990,
-     location:"Mumbai",
+     name : "8gb RAM 500 HDD Dell Laptop",
+     img_url :"https://apollo-singapore.akamaized.net/v1/files/am02k5h5b1af3-IN/image;s=300x600;q=60",
+     price :"37,990",
+     location:"Kanpur",
+     day:"25 november",
      id:"laptop"
     },
     { 
-     name : "HP ELITEBOOK 840 G5 2020 CORE I7-8THGEN 14FHD [8GB RAM/256GB SSD]",
-     img_url :"https://apollo-singapore.akamaized.net/v1/files/vi8ijs5y3czn1-IN/image;s=780x0;q=60",
-     price :37990,
-     location:"Mumbai",
+     name : "Macbook Air Core i5",
+     img_url :"https://apollo-singapore.akamaized.net/v1/files/4arartft1cmo1-IN/image;s=300x600;q=60",
+     price :"58,000",
+     location:"Lakhimpur,UP",
+     day:"22 july",
      id:"laptop"
     },
+    { 
+        name : "Lenovo T4-60",
+        img_url :"https://apollo-singapore.akamaized.net/v1/files/58lry6uss6w2-IN/image;s=300x600;q=60",
+        price :"27,990",
+        location:"Saddarpur,Bhilai",
+        day:"29 june",
+        id:"laptop"
+       },
+       { 
+        name : "Macbook Pro Retina",
+        img_url :"https://apollo-singapore.akamaized.net/v1/files/tke07qhtjcds3-IN/image;s=300x600;q=60",
+        price :"47,990",
+        location:"Sector 21,Noida",
+        day:"29 june",
+        id:"laptop"
+       },
+       { 
+        name : "Dell Latitude 620",
+        img_url :"https://apollo-singapore.akamaized.net/v1/files/7nujqyq14e6k2-IN/image;s=300x600;q=60",
+        price :"9,990",
+        location:"Unnao,UP",
+        day:"29 june",
+        id:"laptop"
+       },
     {
-        name:"REDMI 5A Phone",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/a19hpo6phrku-IN/image;s=300x600;q=60",
-        price:3500,
-        location :"Kanpur",
+        name:"samsung galaxy A52",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/566f469j683m3-IN/image;s=300x600;q=60",
+        price:"17,500",
+        location :"Meerut,UP",
+        day:"15 jan",
+        id:"mobile"
+    },
+    {
+        name:"Vivo v23pro",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/0cyjg01yoxcu1-IN/image;s=300x600;q=60",
+        price:"27,520",
+        location :"NAGLA PARSOTI,AGRA",
+        day:"5 july",
+        id:"mobile"
+    },
+    {
+        name:"iPhone 7 32GB",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/qhmiyokf906l-IN/image;s=300x600;q=60",
+        price:"12,000",
+        location :"ALIGANJ LUCKNOW",
+        day:"25 july",
         id:"mobile"
     },
     {
         name:"REDMI 5A Phone",
         img_url:"https://apollo-singapore.akamaized.net/v1/files/a19hpo6phrku-IN/image;s=300x600;q=60",
-        price:4500,
+        price:"4,500",
         location :"Kanpur",
+        day:"25 july",
         id:"mobile"
     },
     {
-        name:"REDMI 5A Phone",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/a19hpo6phrku-IN/image;s=300x600;q=60",
-        price:3500,
-        location :"Kanpur",
+        name:"Realme 8 5G",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/lcfqghkgsc693-IN/image;s=300x600;q=60",
+        price:"9,500",
+        location :"BUDHERA,KANPUR",
+        day:"25 july",
         id:"mobile"
     },
     {
-        name:"REDMI 5A Phone",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/a19hpo6phrku-IN/image;s=300x600;q=60",
-        price:3500,
-        location :"Kanpur",
+        name:"Oppo A55",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/uk4dr00s46ks-IN/image;s=300x600;q=60",
+        price:"17,100",
+        location :"Lalpahari,Bisalpur",
+        day:"6 july",
         id:"mobile"
     },
     {
-        name:"REDMI 5A Phone",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/a19hpo6phrku-IN/image;s=300x600;q=60",
-        price:5500,
-        location :"Kanpur",
+        name:"Iphone 6s new condition",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/1y5gumr9r6wg-IN/image;s=300x600;q=60",
+        price:"31,500",
+        location :"Bhagalpur,Bisalpur",
+        day:"25 july",
         id:"mobile"
     },
     {
-        name:"REDMI 5A Phone",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/a19hpo6phrku-IN/image;s=300x600;q=60",
-        price:35000,
-        location :"Kanpur",
+        name:"Pocco F1",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/f78qta4thed92-IN/image;s=300x600;q=60",
+        price:"9,000",
+        location :"Anandpur,Darbhanga",
+        day:"5 may",
         id:"mobile"
     },
     {
-        name:"Kia Carnival",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
+        name:"Oppo F17",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/r7dqik8ftzuz-IN/image;s=300x600;q=60",
+        price:"11,500",
+        location :"Brijnagar,Ranchi",
+        day:"25 july",
+        id:"mobile"
+    },
+    {
+        name:"Samsung M21",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/0rprc5oygaau-IN/image;s=300x600;q=60",
+        price:"8,400",
+        location :"Bhagalpur,Bisalpur",
+        day:"Today",
+        id:"mobile"
+    },
+    {
+        name:"Hyundai Santro",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/g82ipi7i53xm2-IN/image;s=300x600;q=60",
+        price:"5,00,345",
         location:"Delhi",
+        day:"25 july",
         id:"car"
     },
     {
         name:"Kia Carnival",
         img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
+        price:"13,21,345",
         location:"Bhopal",
+        day:"25 july",
         id:"car"
     },
     {
-        name:"Kia Carnival",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
+        name:"Maruti Suzuki Vitara",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/5a2yux96anug2-IN/image;s=300x600;q=60",
+        price:"6,21,345",
         location:"Ranchi",
+        day:"25 july",
         id:"car"
     },
     {
         name:"Kia Carnival",
         img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
+        price:"9,21,345",
         location:"Lucknow",
+        day:"25 july",
         id:"car"
     },
     {
-        name:"Kia Carnival",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
+        name:"Tata Zest",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/p6x8xx2ure572-IN/image;s=300x600;q=60",
+        price:"3,21,345",
         location:"Indore",
+        day:"25 july",
         id:"car"
     },
     {
-        name:"Kia Carnival",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
-        location:"Patna",
+        name:"Mercedes Bez",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/egu5ijw4s71n3-IN/image;s=300x600;q=60",
+        price:"10,21,345",
+        location:"Gaziabad",
+        day:"25 oct",
         id:"car"
     },
     {
-        name:"Kia Carnival",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
-        location:"Kolkata",
+        name:"Toyota Fortuner",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/ib7ygb8szbmi1-IN/image;s=300x600;q=60",
+        price:"29,21,345",
+        location:"SaltLake ,Kolkata",
+        day:"19 august",
         id:"car"
     },
     {
-        name:"Kia Carnival",
-        img_url:"https://apollo-singapore.akamaized.net/v1/files/r8xr69mggjj23-IN/image;s=300x600;q=60",
-        price:2312345,
-        location:"Kolkata",
+        name:"Honda Amaze",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/d7z08ulchf9i-IN/image;s=300x600;q=60",
+        price:"3,21,345",
+        location:"Kakurgachhi, Kolkata",
+        day:"7 feb",
+        id:"car"
+    },
+    {
+        name:"Replica Vintage Car",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/zoohy7ityyiu3-IN/image;s=300x600;q=60",
+        price:"9,81,815",
+        location:"Khusbupur, Dhanbad",
+        day:"9 august",
+        id:"car"
+    },
+    {
+        name:"Vintage Modified Car",
+        img_url:"https://apollo-singapore.akamaized.net/v1/files/kz55gixwqfes3-IN/image;s=300x600;q=60",
+        price:"8,21,345",
+        location:"Golabazar, Punjab",
+        day:"17 feb",
         id:"car"
     },
  
@@ -151,9 +243,9 @@ var LIST=JSON.parse(localStorage.getItem("OLX"));
     var Type=[];
     var Filter=[];
     function getType(){
-        var typ=document.getElementById("type").value;
+        var typ=document.getElementById("searchid").value;
       Type=LIST.filter(function(elem,ind){
-          return typ == elem.id;
+          return (elem.id.includes(typ)) || (elem.name.includes(typ));
     });
         console.log(Type);
         display(Type)
@@ -164,7 +256,9 @@ var LIST=JSON.parse(localStorage.getItem("OLX"));
         var max=document.getElementById("max").value;
         var min=document.getElementById("min").value;
         Filter=Type.filter(function(elem,ind){
-                return elem.price>=min && elem.price<=max;
+                var str=elem.price.replaceAll(",","");
+                var val=parseInt(str);
+                return val>=min && val <=max;
         });
         console.log(Filter);
          display(Filter);
@@ -172,23 +266,35 @@ var LIST=JSON.parse(localStorage.getItem("OLX"));
     
  function display(arr){
     document.getElementById("display").innerHTML="";
+    if(arr.length==0){
+        var p=document.createElement("p");
+        p.innerText="Oops... we didn't find anything that matches this search ";
+        document.getElementById("display").append(p);
+    }
+    else{ 
+    
     for(var i=0;i<arr.length;i++){ 
     var box=document.createElement("div");
     box.setAttribute("class","box");
     var img=document.createElement("img");
     img.src=arr[i].img_url;
-    var price=document.createElement("p");
+    var price=document.createElement("h3");
      price.setAttribute("class","cost");
      
-     price.innerText=arr[i].price;
+     price.innerText="₹ "+arr[i].price;
      var name=document.createElement("p");
      name.setAttribute("class","name");
      name.innerText=arr[i].name;
-     var loc=document.createElement("p");
-     loc.setAttribute("class","loc");
-     loc.innerText=arr[i].location;
+     var loc=document.createElement("div");
+     loc.setAttribute("class","address");
+     var loc1=document.createElement("p");
+     var day=document.createElement("p");
+     loc1.innerText=arr[i].location;
+     day.innerText=arr[i].day;
+     loc.append(loc1,day);
     box.append(img,price,name,loc);
     document.getElementById("display").append(box);
     console.log("done");
+    }
     }
  }
