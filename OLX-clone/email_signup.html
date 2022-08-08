@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="login_css.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <meta http-equiv="refresh" content="10">
+</head>
+
+<body>
+
+
+
+  <div class="login">
+
+    <form class="modal-content animate"  style="width:400px; height: 600px;" onsubmit="submitForm(event)">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+        <p class="avtar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Logotyp_OLX_.png/1280px-Logotyp_OLX_.png" style="width:50px; margin-top: 50px;" alt=""></p>
+      </div>
+
+      <div class="container">
+
+        <h1 style="text-align: center; color: #002f34; font-size:20px; font: weight 700;">Enter your email to login</h1>
+        <input id="username"type="text" placeholder="Enter Your Name"style="border: 2px solid black; border-radius: 5px; margin-top: 20px;">
+        <input type="text" placeholder="Enter Your Email"  style="border: 2px solid black; border-radius: 5px; margin-top: 20px;">
+        
+        <div class="para" style="width:320px; margin-left: 20px; margin-top: 20px;padding: 5px 5px; background-color: #fefbf0;">
+            <p>If you are a existing user please select any other login option from previous page.</p>
+        </div>
+        <button id="btn" type="submit" style="width: 90%; text-align: center; margin-left: 20px; margin-top: 60px;" >Next</button>
+        <p style="font-size:12px; text-align: center;margin-top: -5px;">Your contact number is never shared with external parties <br>nor do we use it to spam you in any way.</p>
+    </form>
+  </div>
+
+  <script>
+  
+    function submitForm(event){
+        event.preventDefault();
+    }
+    let username=document.querySelector("#username")
+    document.querySelector("#btn").onclick = function () {
+        location.href = "password.html";
+        localStorage.setItem("username",username.value) 
+    };
+    // let username=document.querySelector("#username").value
+    // console.log(username)
+    // console.log(username)
+    // localStorage.setItem("username",username)
+    
+    // When the user clicks anywhere outside of the modal, close it
+    // window.onclick = function (event) {
+    //   if (event.target == modal) {
+    //     modal.style.display = "none";
+    //   }
+    // }
+    // document.querySelector("#btn").addEventListener("click",()=>{
+    //   onclick="window.location.href='./password.html'"
+    // })
+
+  </script>
+
+
+  
+
+</body>
+
+</html>

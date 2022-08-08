@@ -1,0 +1,46 @@
+#main {
+  /* border: 1px solid black; */
+  display: flex;
+}
+#display {
+  /* border: 1px solid black; */
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 2% 2% 5% 2%;
+}
+#id {
+  margin: auto;
+}
+.cate {
+  margin-top: 10%;
+}
+#details {
+  width: 30%;
+  padding-left: 10px;
+  /* border: 1px solid black; */
+}
+
+.box img {
+  width: 100%;
+}
+#min {
+  padding: 2%;
+  display: block;
+  width: 30%;
+}
+#max {
+  padding: 2%;
+  display: block;
+  width: 30%;
+}
+#apply {
+  display: block;
+  width: 25%;
+  font-weight: 700;
+}
+#sort {
+  display: flex;
+  justify-content: space-evenly;
+}
